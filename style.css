@@ -1,0 +1,137 @@
+.hero {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  .search-bar {
+    max-width: 750px;
+    margin: 30px auto 0;
+  }
+  .search-bar input {
+    border-radius: 50px 0 0 50px;
+    padding: 12px 20px;
+  }
+  .search-bar button {
+    border-radius: 0 50px 50px 0;
+    background-color: #8BC34A;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+  }
+  .navbar-brand span {
+    color: #8BC34A;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .btn-register {
+    background-color: #8BC34A;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 6px 16px;
+    border: none;
+  }
+  .btn-register:hover {
+    background-color: #7CB518;
+  }
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    transition: all 0.3s;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Hover color */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8BC34A;
+}
+
+/* Underline effect */
+.navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #8BC34A;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+}
+
+/* Arrow for dropdown */
+.navbar-nav .nav-item.dropdown > .nav-link::after {
+    content: '\25BE'; /* Downward triangle ▼ */
+    font-size: 12px;
+    margin-left: 6px;
+    transition: transform 0.3s;
+    display: inline-block;
+}
+
+/* Change arrow on hover */
+.navbar-nav .nav-item.dropdown:hover > .nav-link::after {
+    transform: rotate(180deg); /* Flip the arrow */
+}
+
+.service-box {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.4s ease;
+  }
+  
+  .service-box:hover {
+    background-color: #84bd00;
+    color: #fff;
+  }
+  
+  .service-box:hover .icon,
+  .service-box:hover h5,
+  .service-box:hover p {
+    color: #fff !important;
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    color: red;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .location-label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #e6f3e6;
+    color: #65b32e;
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 4px;
+  }
+  .destination-card {
+    position: relative;
+    overflow: hidden;
+  }
