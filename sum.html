@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Popular Destination</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .destination-card {
+      position: relative;
+      overflow: hidden;
+    }
+    .offer-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      font-size: 14px;
+      border-radius: 3px;
+    }
+    .place-name {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background-color: #d4edda;
+      color: #155724;
+      padding: 5px 10px;
+      font-size: 14px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-5">
+  <div class="text-center mb-4">
+    <h6 class="text-success">DESTINATION</h6>
+    <h2 class="fw-bold">Popular Destination</h2>
+  </div>
+
+  <div class="row g-3">
+    <!-- Left Side Images -->
+    <div class="col-lg-4">
+      <div class="row g-3">
+        <!-- Top Left Image -->
+        <div class="col-12">
+          <div class="destination-card">
+            <img src="https://via.placeholder.com/400x190" class="img-fluid rounded" alt="Indonesia">
+            <div class="offer-badge">20% OFF</div>
+            <div class="place-name">Indonesia</div>
+          </div>
+        </div>
+
+        <!-- Bottom Two Images -->
+        <div class="col-6">
+          <div class="destination-card">
+            <img src="https://via.placeholder.com/200x150" class="img-fluid rounded" alt="Malaysia">
+            <div class="offer-badge">25% OFF</div>
+            <div class="place-name">Malaysia</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="destination-card">
+            <img src="https://via.placeholder.com/200x150" class="img-fluid rounded" alt="Australia">
+            <div class="offer-badge">35% OFF</div>
+            <div class="place-name">Australia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side Main Image -->
+    <div class="col-lg-8">
+      <div class="destination-card">
+        <img src="https://via.placeholder.com/800x400" class="img-fluid rounded" alt="Thailand">
+        <div class="offer-badge">30% OFF</div>
+        <div class="place-name">Thailand</div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<section class="py-5 text-center bg-light">
+  <p class="text-success fw-bold text-uppercase mb-2">
+    <span class="me-2">━━</span> Testimonial <span class="ms-2">━━</span>
+  </p>
+  <h2 class="fw-bold mb-5">Our Clients Say!!!</h2>
+
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators (only 2 because 2 slides) -->
+    <div class="carousel-indicators mb-4">
+      <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active bg-success" aria-current="true"></button>
+      <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <!-- Slide 1 (cards 1-3) -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card border-0 p-4 shadow-sm">
+                <img src="https://i.pravatar.cc/100?img=1" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h5 class="fw-bold mb-0">John Doe</h5>
+                <small class="text-muted">New York, USA</small>
+                <p class="mt-3 text-muted">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 p-4 shadow-sm bg-success text-white">
+                <img src="https://i.pravatar.cc/100?img=2" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h5 class="fw-bold mb-0">Jane Smith</h5>
+                <small>Paris, France</small>
+                <p class="mt-3">Sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 p-4 shadow-sm">
+                <img src="https://i.pravatar.cc/100?img=3" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h5 class="fw-bold mb-0">Arun Kumar</h5>
+                <small class="text-muted">Chennai, India</small>
+                <p class="mt-3 text-muted">Ut enim ad minim veniam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 (cards 4-6) -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card border-0 p-4 shadow-sm">
+                <img src="https://i.pravatar.cc/100?img=4" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h5 class="fw-bold mb-0">Carlos Vega</h5>
+                <small class="text-muted">Madrid, Spain</small>
+                <p class="mt-3 text-muted">Duis aute irure dolor in reprehenderit.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 p-4 shadow-sm bg-success text-white">
+                <img src="https://i.pravatar.cc/100?img=5" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h5 class="fw-bold mb-0">Emily Rose</h5>
+                <small>Berlin, Germany</small>
+                <p class="mt-3">Cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 p-4 shadow-sm">
+                <img src="https://i.pravatar.cc/100?img=6" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h5 class="fw-bold mb-0">Ali Khan</h5>
+                <small class="text-muted">Dubai, UAE</small>
+                <p class="mt-3 text-muted">Cupidatat non proident.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

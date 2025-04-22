@@ -1,5 +1,5 @@
 .hero {
-    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center;
+    background: url('/images/Travel.jpg') no-repeat center center;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -30,18 +30,18 @@
   }
   .search-bar button {
     border-radius: 0 50px 50px 0;
-    background-color: #8BC34A;
+    background-color:rgb(152, 195, 58);
     color: white;
     padding: 12px 30px;
     border: none;
   }
   .navbar-brand span {
-    color: #8BC34A;
+    color: rgb(152, 195, 58);
     font-weight: 700;
     font-size: 24px;
   }
   .btn-register {
-    background-color: #8BC34A;
+    background-color: rgb(152, 195, 58);
     color: #fff;
     font-weight: 500;
     border-radius: 30px;
@@ -60,7 +60,7 @@
 
 /* Hover color */
 .navbar-nav .nav-item .nav-link:hover {
-    color: #8BC34A;
+    color:rgb(152, 195, 58);
 }
 
 /* Underline effect */
@@ -71,7 +71,7 @@
     bottom: -4px;
     width: 0%;
     height: 2px;
-    background-color: #8BC34A;
+    background-color: rgb(152, 195, 58);
     transition: all 0.3s;
 }
 
@@ -100,7 +100,7 @@
   }
   
   .service-box:hover {
-    background-color: #84bd00;
+    background-color:rgb(152, 195, 58);
     color: #fff;
   }
   
@@ -125,13 +125,193 @@
     bottom: 10px;
     left: 10px;
     background-color: #e6f3e6;
-    color: #65b32e;
+    color:rgb(152, 195, 58);
     padding: 4px 8px;
     font-weight: 600;
     font-size: 0.9rem;
     border-radius: 4px;
   }
-  .destination-card {
+
+
+  .package-card {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+    border: none;
+  }
+  .package-card:hover {
+    transform: translateY(-5px);
+  }
+  .icon-text {
+    color: #7ab730;
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  .price {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .btn-custom {
+    background-color: rgb(152, 195, 58);
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 5px 20px;
+  }
+  .btn-custom:hover {
+    background-color: #5a941b;
+  }
+  .section-title {
+    font-weight: bold;
+    color: #0d2235;
+  }
+ 
+  .section-subtitle {
+    color: rgb(152, 195, 58);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1e2d3b;
+  }
+
+  .destination-img {
     position: relative;
     overflow: hidden;
+    border-radius: 8px;
+    height: 100%;
   }
+
+  .destination-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #dc3545;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+
+  .country-label {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #ecfbe4;
+    color: rgb(152, 195, 58);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 3px;
+  }
+
+  .full-height {
+    height: 100%;
+  }
+
+
+  .booking-section {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .line {
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: #7BBF39; /* or your favorite green */
+  }
+
+
+
+
+  .testimonial-tab-content > div {
+    display: none;
+  }
+
+  .testimonial-tab-content > div.active {
+    display: block;
+  }
+
+  .tab-buttons button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    background-color: #ccc;
+  }
+
+  .tab-buttons button.active {
+    background-color: green;
+  }
+
+    .footer-gallery-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 2px solid #fff;
+  }
+
+
+  .btn-register {
+    background-color: rgb(152, 195, 58);
+    color: #fff;
+  }
+
+  /* Dropdown open on hover */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  /* Dropdown smooth effect */
+  .dropdown-menu {
+    transition: all 0.3s ease;
+  }
+
+  /* Hero section style */
+  .hero {
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .hero .btn {
+    background-color: rgb(152, 195, 58);
+    color: #fff;
+  }
+
+  .custom-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .hero-section {
+    position: relative;
+    background-image: url('/images/Travel.jpg');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+  }
+  
+
+  
+  

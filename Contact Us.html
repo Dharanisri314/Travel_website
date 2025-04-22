@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="Destination.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    
+  <!-- Bootstrap CSS & Icons (if not added already) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://img.icons8.com/ios-filled/24/8BC34A/marker.png" />
+      <span>Tourist</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About Us.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="Packages.html">Packages</a></li>
+
+        <!-- Pages Dropdown with Arrow Icon -->
+        <li class="nav-item dropdown">
+          
+            Pages <i class="bi bi-caret-down-fill ms-1"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/Destination.html">Destination</a></li>
+            <li><a class="dropdown-item" href="/Booking.html">Booking</a></li>
+            <li><a class="dropdown-item" href="/Travel Guides.html">Travel Guides</a></li>
+            <li><a class="dropdown-item" href="/Testimonial.html">Testimonial</a></li>
+            <li><a class="dropdown-item" href="/404.html">404 Page</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="Contact Us.html">Contact</a></li>
+        <li class="nav-item ms-2">
+            <a href="register.html" class="btn btn-register" style="background-color:rgb(152, 195, 58);" >Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="display-4 fw-bold">Contact Us</h1>
+      <nav aria-label="breadcrumb" class="breadcrumb-custom mt-2">
+        <a href="#">Home</a> / <a href="#">Pages</a> / <span class="text-white">Contact</span>
+      </nav>
+    </div>
+  </section>
+  
+  
+
+  <section class="contact py-5">
+    <div class="container">
+      <header class="text-center mb-5">
+        <h6 class="text-success fw-bold">CONTACT US</h6>
+        <h2 class="fw-bold">Contact For Any Query</h2>
+      </header>
+  
+      <div class="row g-4">
+        <!-- Contact Info -->
+        <aside class="col-lg-4 d-flex">
+          <div class="p-4 shadow-sm d-flex flex-column justify-content-between h-100 bg-white rounded-3">
+            <h5 class="fw-bold mb-3">Get In Touch</h5>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+            <address>
+              <p><i class="bi bi-geo-alt-fill text-success me-2"></i> 123 Street, New York, USA</p>
+              <p><i class="bi bi-telephone-fill text-success me-2"></i> +012 345 67890</p>
+              <p><i class="bi bi-envelope-fill text-success me-2"></i> mail@domain.com</p>
+            </address>
+          </div>
+        </aside>
+  
+        <!-- Google Map -->
+        <section class="col-lg-4 d-flex">
+          <div class="p-0 shadow-sm h-100 w-100 bg-white rounded-3 overflow-hidden">
+            <iframe 
+              class="w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m18..." 
+              style="min-height: 350px; border:0;" 
+              allowfullscreen="" 
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </section>
+  
+        <section class="col-lg-4 d-flex">
+            <div class="p-4 shadow-sm d-flex flex-column justify-content-between h-100 bg-white rounded-3">
+              <form id="contactForm" class="needs-validation d-flex flex-column h-100" novalidate>
+                <div class="mb-3">
+                  <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                  <div class="invalid-feedback">Please enter at least 3 characters for your name.</div>
+                </div>
+                <div class="mb-3">
+                  <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Subject" required>
+                  <div class="invalid-feedback">Subject is required.</div>
+                </div>
+                <div class="mb-3 flex-grow-1">
+                  <textarea class="form-control h-100" placeholder="Message" required></textarea>
+                  <div class="invalid-feedback">Please write your message.</div>
+                </div>
+                <button type="submit" class="btn btn-success w-100 mt-3">Send Message</button>
+              </form>
+            </div>
+          </section>
+          
+          <script>
+            (function () {
+              'use strict';
+              const form = document.getElementById('contactForm');
+              const nameInput = document.getElementById('name');
+          
+              form.addEventListener('submit', function (event) {
+          
+                let isNameValid = nameInput.value.trim().length >= 3;
+          
+                // Name field validation
+                if (!isNameValid) {
+                  nameInput.classList.add('is-invalid');
+                  nameInput.classList.remove('is-valid');
+                } else {
+                  nameInput.classList.remove('is-invalid');
+                  nameInput.classList.add('is-valid');
+                }
+          
+                // Final check
+                if (!form.checkValidity() || !isNameValid) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+          
+                form.classList.add('was-validated');
+              }, false);
+            })();
+          </script>
+          
+          
+
+</body>
+</html>

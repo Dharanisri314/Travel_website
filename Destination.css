@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  header .navbar-brand span {
+    color: #8cc63f;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  nav .nav-link.text-success {
+    color: #8cc63f !important;
+    font-weight: bold;
+  }
+  .breadcrumb-custom a {
+    color: #8cc63f;
+    text-decoration: none;
+  }
+  .breadcrumb-custom a:hover {
+    text-decoration: underline;
+  }
+  .hero-section {
+    background: url('your-image.jpg') center/cover no-repeat;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  .hero-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    top: 0;
+    left: 0;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
