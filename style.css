@@ -1,5 +1,5 @@
 .hero {
-    background: url('/images/Travel.jpg') no-repeat center center;
+    background: url('./images/Travel.jpg') no-repeat center center;
     background-size: cover;
     height: 90vh;
     display: flex;
