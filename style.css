@@ -305,7 +305,7 @@
 
   .hero-section {
     position: relative;
-    background-image: url('/images/Travel.jpg');  
+/*     background-image: url('/images/Travel.jpg');   */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
