@@ -19,7 +19,7 @@ body {
     text-decoration: underline;
   }
   .hero-section {
-    background: url("./images/Travel.jpg") no-repeat center center;
+    background: url("images/Travel.jpg") no-repeat center center;
     height: 85vh;
     position: relative;
     display: flex;
